@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Gloria+Hallelujah&family=Grape+Nuts&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.products-grid{
+    margin-left: 50px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+}
+
+.product-container{
+    margin-top: 100px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    width: 250px;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.product-image{
+  width: 180px;
+  height: 180px;
+  transform: translateZ(-10px);
+}
+
+.product-name{
+    font-size: 20px;
+    font-weight: bold;  
+    font-family: 'Gloria Hallelujah', cursive; 
+}
+
+.product-rating-container{
+   align-items: center;
+   justify-content: center;
+    display: flex;
+}
+
+.product-rating-stars{
+    width: 100px;
+   
+}
+
+
+
+
+.product-rating-count{
+    font-size: 15px;
+}
+
+.product-price{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product-quantity-container{
+    margin-top: 15px;
+}
+
+.product-spacer{
+    margin-top: 15px;
+}
+
+.add-to-cart-button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: none;
+    cursor: pointer;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+}
